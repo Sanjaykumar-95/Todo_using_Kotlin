@@ -47,3 +47,13 @@ Use the app on the device/emulator to add, edit, and delete tasks in the to-do l
 
 Enjoy the To-Do List App:
 Explore the features of the app and manage your tasks efficiently.
+
+
+Screenshots of my App:
+-----------------------
+
+![screenshot_1](https://github.com/Sanjaykumar-95/Todo_using_Kotlin/assets/84496961/f4366286-2a5c-43ae-8ca9-85423b551557)
+![screenshot_2](https://github.com/Sanjaykumar-95/Todo_using_Kotlin/assets/84496961/dd5ac567-2c45-43b0-8b04-3f80b12250c7)
+![screenshot_3](https://github.com/Sanjaykumar-95/Todo_using_Kotlin/assets/84496961/42264631-5013-47f2-aeea-272b7072b0ea)
+![screenshot_4](https://github.com/Sanjaykumar-95/Todo_using_Kotlin/assets/84496961/1e58a6d9-fd96-4d60-8eef-6954568cca08)
+
