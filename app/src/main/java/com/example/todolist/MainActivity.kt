@@ -34,13 +34,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         listView.setOnItemClickListener { _, view, position, _ ->
-            // Handle item click
             showEditDialog(position)
         }
 
-        // Set long click listener for the ListView items to trigger delete
         listView.setOnItemLongClickListener { _, view, position, _ ->
-            // Handle long click (delete)
             onDeleteClick(view.findViewById(R.id.delete_icon))
             true
         }
@@ -85,5 +82,10 @@ class MainActivity : AppCompatActivity() {
         items.removeAt(position)
         adapter.notifyDataSetChanged()
         Toast.makeText(this, "Item deleted at position $position", Toast.LENGTH_SHORT).show()
+    }
+
+    fun onEditClick(view: View) {
+        val position = listView.getPositionForView(view.parent as View)
+        showEditDialog(position)
     }
 }

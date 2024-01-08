@@ -13,6 +13,14 @@
         android:layout_weight="1"/>
 
     <ImageView
+        android:id="@+id/edit_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@android:drawable/ic_menu_edit"
+        android:clickable="true"
+        android:onClick="onEditClick"/>
+
+    <ImageView
         android:id="@+id/delete_icon"
         android:layout_width="28dp"
         android:layout_height="30dp"
