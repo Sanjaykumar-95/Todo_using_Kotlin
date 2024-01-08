@@ -18,6 +18,7 @@
         android:layout_height="24dp"
         android:src="@android:drawable/ic_menu_edit"
         android:clickable="true"
+        android:layout_marginRight="10dp"
         android:onClick="onEditClick"/>
 
     <ImageView
